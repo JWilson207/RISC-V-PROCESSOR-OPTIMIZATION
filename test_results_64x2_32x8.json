@@ -1,0 +1,59 @@
+{
+  "config": {
+    "icache_sets": 64,
+    "icache_ways": 2,
+    "dcache_sets": 32,
+    "dcache_ways": 8
+  },
+  "timestamp": "2025-11-26T01:15:52.329887",
+  "results": [
+    {
+      "benchmark": "dhrystone",
+      "cycles": 867546,
+      "instructions": 113,
+      "ipc": 0.00013025245923559096,
+      "cache_miss_rate": 0.0,
+      "status": "PASSED"
+    },
+    {
+      "benchmark": "multiplication",
+      "cycles": 377826,
+      "instructions": 113,
+      "ipc": 0.00029907947044406684,
+      "cache_miss_rate": 0.0,
+      "status": "PASSED"
+    },
+    {
+      "benchmark": "qsort",
+      "cycles": 940586,
+      "instructions": 112,
+      "ipc": 0.00011907470449273112,
+      "cache_miss_rate": 0.0,
+      "status": "PASSED"
+    },
+    {
+      "benchmark": "aes",
+      "cycles": 2369356,
+      "instructions": 823467,
+      "ipc": 0.34754886981947836,
+      "cache_miss_rate": 0.0,
+      "status": "PASSED"
+    },
+    {
+      "benchmark": "convolution",
+      "cycles": 631596,
+      "instructions": 98735,
+      "ipc": 0.15632619585937846,
+      "cache_miss_rate": 0.0,
+      "status": "PASSED"
+    },
+    {
+      "benchmark": "sha256",
+      "cycles": 1409396,
+      "instructions": 547035,
+      "ipc": 0.3881343497498219,
+      "cache_miss_rate": 0.0,
+      "status": "PASSED"
+    }
+  ]
+}
